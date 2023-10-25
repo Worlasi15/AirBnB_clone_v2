@@ -1,3 +1,8 @@
+/*script to do the following:
+  creates an AIRBNB_dev Database if not found
+  create hbnb user and a password if not found
+  grant privileges and access*/
+
 -- Create the hbnb_dev_db database if not in existence
 CREATE DATABASE IF NOT EXISTS hbnb_dev_db;
 
